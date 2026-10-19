@@ -2,20 +2,17 @@ import os
 import json
 import streamlit as st
 from huggingface_hub import InferenceClient
-
 st.set_page_config(
     page_title="DisputeDeck Lite",
     page_icon="🧾",
     layout="wide",
 )
-
 st.title("🧾 DisputeDeck Lite")
 st.subheader("AI-powered dispute preparation for online sellers")
 st.write(
     "Organize customer complaints, identify missing evidence, "
     "and prepare professional replies."
 )
-
 st.info(
     "Use fictional data for testing. Your case details are sent "
     "to the configured hosted AI provider when you analyze a case."
