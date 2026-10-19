@@ -134,7 +134,5 @@ Please do not commit credentials, private customer data, or confidential order i
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
-
 **Built for small online sellers, with open-weight AI.** 🧾🤖
-
 `#devchallenge` `#hf26challenge`
