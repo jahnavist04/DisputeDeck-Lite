@@ -18,7 +18,6 @@ st.info(
     "to the configured hosted AI provider when you analyze a case."
 )
 
-
 def get_secret(name, default=""):
     try:
         value = st.secrets.get(name, "")
